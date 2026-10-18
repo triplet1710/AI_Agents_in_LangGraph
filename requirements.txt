@@ -1,0 +1,30 @@
+# Core
+langgraph>=1.0
+langchain>=1.0
+langchain-core>=1.0
+langgraph-checkpoint-sqlite
+
+# Model providers — học miễn phí chỉ cần langchain-ollama + openai (SDK dùng ở bài 2)
+langchain-ollama
+openai
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+
+# Search
+langchain-tavily
+tavily-python
+ddgs
+requests
+beautifulsoup4
+
+# Utils
+python-dotenv
+pydantic>=2
+ipykernel
+jupyter
+
+# UI + observability (bài 5, 9 và dự án)
+streamlit
+langsmith
+pytest
